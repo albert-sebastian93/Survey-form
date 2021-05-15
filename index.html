@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Survey Form</title>
+  a <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main">
+  <h1 id="title">Survey Form</h1>
+  <p id="description">Thank you for taking your time to help us improve the platform</p>
+<div class="main-content">
+  <div class="form-content">
+  <form id="survey-form">
+    <label id="name-label"> Name</label>
+    <input type="text" name="name" id="name" placeholder="Enter name" required></input><br>
+    <label id="email-label">Email</label>
+    <input type="email" name="email" id="email" placeholder="Enter email" required></input><br>
+    <label id="number-label">Number</label>
+    <input type="number" name="number" id="number" min="0" max="10" placeholder="Enter number" required></input><br>
+<label for="dropdown">Which of tht following matches you phone.</label>
+    <select id="dropdown" name="phones">
+      <option value="">Budget</option>
+      <option value="">Premuim</option>
+      <option value="">Flagship</option>
+      <option value="">Flagship Killer</option>
+    </select><br>
+<label for="radio">You are a</label><br>
+    <input type="radio" name="gender" value="male">Male<br>
+    <input type="radio" name="gender" value="female">Female<br>
+    <input type="radio" name="gender" value="other">Other<br>
+
+    <input type="checkbox" name="" value="no">I do not have a phone.<br>
+    <input type="checkbox" name="" value="budget">I have a budget phone.<br>
+    <input type="checkbox" name="" value="premium">I have a premium phone.<br>
+    <input type="checkbox" name="" value="flagship">I have a flagship phone. <br>
+<label for="comments">Your suggestions</label><br>
+<textarea  rows="4" cols="50" id="comment"placeholder="additional comments"></textarea><br>
+
+<input type="submit" id = "submit">
+  </form>
+</div>
+</div>
+</div>
+  <script type="text/javascript" src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+
+</html>
